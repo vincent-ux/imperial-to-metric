@@ -3,7 +3,10 @@ import React from 'react';
 function Converter() {
   return (
     <div>
-      <h3>A Converter component</h3>
+      <label for="inputField">Miles: </label>
+      <input type="text" id="inputField"/>
+      <button>Convert</button>
+      <p>Kilometers: </p>
     </div>
   );
 }

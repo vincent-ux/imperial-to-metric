@@ -10,7 +10,7 @@ import Converter from './components/Converter';
 function App() {
   return (
     <div className="App">
-      <Title />
+      <Title text="Imperial to Metric Converter" />
       <Menu />
       <Converter />
     </div>

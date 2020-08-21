@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Title() {
+function Title(props) {
   return (
     <div>
-      <h1>A title component</h1>
+      <h1>{props.text}</h1>
     </div>
   );
 }
